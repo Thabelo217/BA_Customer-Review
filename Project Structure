@@ -1,0 +1,31 @@
+BA_Sentiment_Analysis/
+│
+├── data/
+│   ├── raw/                      # Raw scraped data (unprocessed)
+│   │   └── BA_reviews_raw.csv
+│   └── processed/                # Cleaned & ready-to-analyze data
+│       └── BA_reviews_clean.csv
+│
+├── notebooks/
+│   └── 01_ba_sentiment_analysis.ipynb   # Jupyter notebook for EDA & modeling
+│
+├── scripts/
+│   ├── scraper.py                # Web scraping script
+│   ├── cleaner.py                # Data cleaning functions
+│   ├── sentiment_analysis.py     # Sentiment modeling & visualization
+│   └── utils.py                  # Helper functions (optional)
+│
+├── models/                       # (optional) Saved ML models or vectorizers
+│   ├── tfidf_vectorizer.pkl
+│   └── sentiment_model.pkl
+│
+├── outputs/
+│   ├── figures/                  # Visualization outputs
+│   │   └── sentiment_distribution.png
+│   └── reports/                  # Summary reports
+│       └── model_performance.txt
+│
+├── README.md                     # Project documentation
+├── requirements.txt              # Python dependencies
+├── .gitignore                    # Ignore cache, data, and model files
+└── main.py                       # Optional: master script to run all steps
