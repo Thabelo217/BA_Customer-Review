@@ -9,12 +9,7 @@ BA_Sentiment_Analysis/
 ├── notebooks/
 │   └── 01_ba_sentiment_analysis.ipynb   # Jupyter notebook for EDA & modeling
 │
-├── scripts/
-│   ├── scraper.py                # Web scraping script
-│   ├── cleaner.py                # Data cleaning functions
-│   ├── sentiment_analysis.py     # Sentiment modeling & visualization
-│   └── utils.py                  # Helper functions (optional)
-│
+
 ├── models/                       # (optional) Saved ML models or vectorizers
 │   ├── tfidf_vectorizer.pkl
 │   └── sentiment_model.pkl
